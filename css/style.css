@@ -7,6 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.toolsFrontend>img,
+.toolsBackend>img {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
 
 /* NAVBAR
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -90,7 +97,8 @@ html {
     color: #53A08E;
 }
 
-.hero-container p {
+.hero-container p,
+.hero-container li {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
