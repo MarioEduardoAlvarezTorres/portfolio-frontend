@@ -9,6 +9,8 @@ fetch(urlback)
     .then((data) => {
         let projects = data;
         toolsBackend.forEach((tool) => {
+            cardsback = "";
+            let titleCards = document.getElementById("cards-" + tool.toLowerCase()).innerHTML;
             projects.filter(project => project.tag === tool).forEach((project) => {
                 cardsback += createProject(
                     project.name,
@@ -22,7 +24,7 @@ fetch(urlback)
             });
 
             let id = 'cards-' + tool.toLowerCase();
-            document.getElementById(id).innerHTML = cardsback || '';
+            document.getElementById(id).innerHTML = titleCards + cardsback || '';
         })
 
     });
