@@ -12,7 +12,7 @@ fetch(urlTraining)
             );
         });
         document.getElementById("olTimeline").innerHTML =
-            trainingcard || "";
+            trainingcard + "<li></li>" || "";
     });
 
 function createTrainig(title, date, description) {

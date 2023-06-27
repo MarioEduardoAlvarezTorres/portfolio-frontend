@@ -304,7 +304,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    overflow-x: auto;
 }
 
 .container-project>h1 {
@@ -364,10 +363,6 @@ body {
 
 .card-project .information strong {
     font-size: 10px;
-}
-
-.card-project .image {
-    background: #5E9FA3;
 }
 
 .card-project .image img {
