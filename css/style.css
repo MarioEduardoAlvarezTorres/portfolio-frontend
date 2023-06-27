@@ -1,13 +1,14 @@
 :root {
     /*Colores*/
-    --carbon: #1E1E1E;
-    --morado-background: #263676;
-    --morado-boton: #333399;
-    --azul-primario: #0D1D6B;
     --blanco: #ffffff;
     --negro: #000000;
-    --gris: #979797;
-    --gris-claro: #AAAAAA;
+    --azul-marino: #213341;
+    --azul-aqua: #049CB3;
+    --rosa-claro: #F5E7E4;
+    --rosa-fuerte: #D2BEBF;
+    --violeta: #AFA7B2;
+    --gris: #797979;
+    --amarillo: #f1b10fb9;
 }
 
 * {
@@ -66,9 +67,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-.navbar-items a:hover {
+.navbar-text a:hover {
     font-weight: bold;
-    color: #53A08E;
+    color: var(--azul-aqua);
 }
 
 
@@ -93,7 +94,7 @@ body {
 
 .social ul li a {
     display: inline-block;
-    color: #fff;
+    color: var(--blanco);
     padding: 5px 0px;
     text-decoration: none;
     transition: all 500ms ease;
@@ -118,7 +119,7 @@ body {
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
-    color: #53A08E;
+    color: var(--azul-aqua);
 }
 
 .hero-container ul {
@@ -131,7 +132,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #797979;
+    color: var(--gris);
     list-style-type: circle;
 }
 
@@ -139,7 +140,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    color: #000000;
+    color: var(--negro);
 }
 
 .hero-image img {
@@ -168,7 +169,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .training-container {
-    background-color: #F8F4EA;
+    background-color: var(--amarillo);
 }
 
 .training-container h1 {
@@ -198,7 +199,7 @@ body {
     list-style-type: none;
     width: 160px;
     height: 3px;
-    background: #fff;
+    background: var(--blanco);
 }
 
 .timeline ol li:last-child {
@@ -229,8 +230,8 @@ body {
     padding: 15px;
     font-size: 1rem;
     white-space: normal;
-    color: black;
-    background: white;
+    color: var(--negro);
+    background: var(--blanco);
 }
 
 .timeline ol li div::before {
@@ -347,7 +348,7 @@ body {
 
 .card-project:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .card-project .information {
@@ -369,6 +370,44 @@ body {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+
+/*FORMULARIO*/
+
+#contact {
+    background-color: var(--rosa-fuerte);
+    padding: 4rem;
+}
+
+#contact #wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#contact #wrapper .contact-form form>* {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+#contact #wrapper .contact-form input {
+    width: 70%;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+}
+
+#contact #wrapper .contact-form textarea {
+    resize: none;
+    width: 70%;
+    border-radius: 0.2rem;
 }
 
 
@@ -475,6 +514,18 @@ body {
         }
         .card-project:hover {
             transform: none;
+        }
+        #contact #wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #contact #wrapper .contact-form input {
+            width: 100%;
+        }
+        #contact #wrapper .contact-form textarea {
+            width: 100%;
         }
     }
 }
