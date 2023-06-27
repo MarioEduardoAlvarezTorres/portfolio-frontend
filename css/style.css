@@ -42,7 +42,7 @@ body {
     z-index: 1;
 }
 
-.navbar ul {
+.navbar ul.navbar-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,6 +50,14 @@ body {
     padding: 16px;
     gap: 24px;
     list-style: none;
+}
+
+.navbar ul.navbar-logo {
+    display: none;
+}
+
+.navbar ul.navbar-logo img {
+    height: 2rem;
 }
 
 .navbar-items a {
@@ -373,42 +381,34 @@ body {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 599px) {
-
     .timeline ol,
     .timeline ol li {
         width: auto;
     }
-
     .timeline ol {
         padding: 0;
         transform: none !important;
     }
-
     .timeline ol li {
         display: block;
         height: auto;
         background: transparent;
     }
-
     .timeline ol li:first-child {
         margin-top: 25px;
     }
-
     .timeline ol li:not(:first-child) {
         margin-left: auto;
     }
-
     .timeline ol li div {
         position: static;
         width: 94%;
         height: auto !important;
         margin: 0 auto 25px;
     }
-
     .timeline ol li:nth-child(odd) div {
         transform: none;
     }
-
     .timeline ol li:nth-child(odd) div::before,
     .timeline ol li:nth-child(even) div::before {
         left: 50%;
@@ -418,47 +418,57 @@ body {
         border-left: 1px solid white;
         height: 25px;
     }
-
     .timeline ol li:last-child,
     .timeline ol li:nth-last-child(2) div::before,
     .timeline ol li:not(:last-child)::after,
     .timeline .arrows {
         display: none;
     }
-
     @media (max-width: 720px) {
+        .navbar {
+            position: fixed;
+            top: 90%;
+            bottom: 0;
+            padding: 0.5rem;
+        }
+        .navbar ul.navbar-text {
+            display: none;
+        }
+        .navbar ul.navbar-logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            gap: 55px;
+            list-style: none;
+        }
         .social {
             display: none;
             margin: 0px;
             padding: 0px;
         }
-
         .hero-container {
             display: block;
             text-align: justify;
             padding-left: 0rem;
         }
-
         .hero-container ul {
             column-count: 2;
             column-gap: 25px;
             text-align: start;
         }
-
         .hero-information {
             padding: 2rem;
             margin-left: 0rem;
         }
-
         .hero-image img {
             display: none;
         }
-
         .container-project {
             margin: 4rem;
             padding: 0rem;
         }
-
         .container-project .projects {
             display: flex;
             flex-direction: column;
