@@ -301,6 +301,7 @@ body {
 
 .container-project .projects {
     display: flex;
+    flex-wrap: wrap;
     padding: 0px 16px;
     justify-content: center;
     align-items: center;
@@ -339,7 +340,7 @@ body {
 .card-project {
     display: grid;
     grid-template-columns: 40% 60%;
-    width: 297px;
+    width: 350px;
     height: 185px;
     margin: 1rem;
     box-shadow: -4px 6px 25px rgba(0, 0, 0, 0.25);
@@ -356,10 +357,28 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0rem 1rem;
 }
 
 .card-project .information h2 {
     font-size: 1.2rem;
+}
+
+.card-project .information p {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-project .information .links {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5rem;
+}
+
+.card-project .information .links>* {
+    margin: 0rem 0.2rem;
 }
 
 .card-project .information strong {
@@ -378,6 +397,14 @@ body {
 #contact {
     background-color: var(--rosa-fuerte);
     padding: 4rem;
+}
+
+#contact>h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: var(--azul-aqua);
 }
 
 #contact #wrapper {
@@ -415,6 +442,7 @@ body {
     resize: none;
     width: 70%;
     border-radius: 0.2rem;
+    padding: 1rem;
 }
 
 
@@ -510,29 +538,30 @@ body {
             margin: 0rem;
             padding: 2rem;
         }
-        .container-project .projects {
-            justify-content: left;
-            align-items: left;
-            overflow-x: auto;
-            gap: 0rem;
-        }
         .container-project .projects::-webkit-scrollbar {
             width: 0;
         }
         .card-project:hover {
             transform: none;
         }
+        #contact {
+            padding: 2rem;
+        }
         #contact #wrapper {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: auto;
         }
         #contact #wrapper .contact-form input {
             width: 100%;
         }
         #contact #wrapper .contact-form textarea {
             width: 100%;
+        }
+        #contact {
+            padding-bottom: 16rem;
         }
     }
 }
