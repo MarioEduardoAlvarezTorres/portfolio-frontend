@@ -418,8 +418,11 @@ body {
 /*FORMULARIO*/
 
 #contact {
-    background-color: var(--rosa-fuerte);
+    background-color: #F5F3C1;
     padding: 4rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #contact>h2 {
@@ -427,7 +430,7 @@ body {
     font-size: 48px;
     line-height: 58px;
     text-align: center;
-    color: var(--azul-aqua);
+    color: #0EA293;
 }
 
 #contact #wrapper {
@@ -440,7 +443,7 @@ body {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background-color: var(--rosa-fuerte);
+    background-color: #F5F3C1;
     padding: 1rem;
 }
 
@@ -457,15 +460,35 @@ body {
 #contact #wrapper .contact-form input {
     width: 70%;
     height: 2.5rem;
-    border-radius: 0.2rem;
+    border-radius: 0.8rem;
     padding: 1rem;
 }
 
 #contact #wrapper .contact-form textarea {
     resize: none;
     width: 70%;
-    border-radius: 0.2rem;
+    border-radius: 0.8rem;
     padding: 1rem;
+}
+
+#contact #wrapper form>input.boton {
+    align-items: center;
+    background-color: #2F0F5D;
+    color: var(--blanco);
+}
+
+#contact #wrapper .container-cv {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    background-color: var(--blanco);
+    border-radius: 2rem;
+    align-items: center;
+    align-content: center;
+}
+
+#contact #wrapper .container-cv>* {
+    padding: 0.5rem 0rem;
 }
 
 
@@ -559,7 +582,7 @@ body {
         }
         .container-project {
             margin: 0rem;
-            padding: 0rem;
+            padding: 2rem 0rem;
         }
         .container-project .projects {
             display: grid;
@@ -574,6 +597,10 @@ body {
         .container-project .projects::-webkit-scrollbar {
             width: 0;
         }
+        .container-project>h2,
+        .container-project>div>h2 {
+            text-align: center;
+        }
         .tools {
             column-count: 1;
             margin: 0rem;
@@ -587,6 +614,7 @@ body {
         }
         #contact {
             padding: 2rem;
+            padding-bottom: 16rem;
         }
         #contact #wrapper {
             display: flex;
@@ -600,9 +628,6 @@ body {
         }
         #contact #wrapper .contact-form textarea {
             width: 100%;
-        }
-        #contact {
-            padding-bottom: 16rem;
         }
     }
 }
