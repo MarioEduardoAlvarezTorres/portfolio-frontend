@@ -64,7 +64,8 @@ body {
 }
 
 .navbar ul.navbar-logo img {
-    height: 2rem;
+    height: 1.8rem;
+    filter: brightness(100%);
 }
 
 .navbar-text a {
@@ -515,7 +516,7 @@ body {
     .timeline .arrows {
         display: none;
     }
-    @media (min-width: 320px) and (max-width: 1024px) {
+    @media (max-width: 1024px) {
         .navbar {
             position: fixed;
             top: 90%;
