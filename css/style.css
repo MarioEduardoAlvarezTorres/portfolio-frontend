@@ -550,6 +550,10 @@ body {
     padding-bottom: 1rem;
 }
 
+.modalDialog .container-modal #information>a.link {
+    padding-right: 1rem;
+}
+
 .modalDialog {
     position: fixed;
     top: 0;
@@ -744,10 +748,13 @@ body {
         #contact #wrapper .contact-form textarea {
             width: 100%;
         }
+        .modalDialog>div {
+            width: 90%;
+            margin: 0rem auto;
+        }
         .modalDialog .container-modal {
             display: flex;
             flex-direction: column;
-            overflow-y: auto;
         }
     }
 }
