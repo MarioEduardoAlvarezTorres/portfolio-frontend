@@ -1,5 +1,6 @@
 const urlTraining = "https://portfolio-l2h9.onrender.com/api/academic-training";
 let trainingcard = "";
+document.getElementById('carga').style.display = 'flex';
 fetch(urlTraining)
     .then((res) => res.json())
     .then((data) => {
@@ -13,6 +14,7 @@ fetch(urlTraining)
         });
         document.getElementById("olTimeline").innerHTML =
             trainingcard + "<li></li>" || "";
+        document.getElementById('carga').style.display = 'none';
     });
 
 function createTrainig(title, date, description) {

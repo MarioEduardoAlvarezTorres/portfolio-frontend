@@ -4,6 +4,7 @@ let toolsBackend = [
     'EXPRESS',
     'NESTJS',
 ];
+document.getElementById('carga').style.display = 'flex';
 fetch(urlback)
     .then((res) => res.json())
     .then((data) => {
@@ -26,7 +27,7 @@ fetch(urlback)
             let id = 'cards-' + tool.toLowerCase();
             document.getElementById(id).innerHTML = titleCards + cardsback || '';
         })
-
+        document.getElementById('carga').style.display = 'none';
     });
 
 function createProject(name, description, developerToolsFrontend, developerToolsBackend, links, tag, images) {
