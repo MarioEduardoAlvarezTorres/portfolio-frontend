@@ -62,6 +62,21 @@ function createProject(
     card =
         card +
         `<p><strong>Tag:"${tag}"</strong></p></div> 
-            </div>`;
+            </div>
+            <div id="openModal${name.trim()}" class="modalDialog">
+            <div class="container-modal">
+                <div id="image">
+                    <img src='${images[0] || ""}' alt="">
+                </div>
+                <div id="information">
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>${name}</h2>
+                    <p>${description}</p>
+                    <p><strong>Herramientas utilizadas:</strong> ${developerToolsFrontend || developerToolsBackend}</p>
+                    <p><strong>Tag:</strong>${tag}</p>
+                    <p>${links}</p>  
+                </div>
+            </div>
+        </div>`;
     return card;
 }
