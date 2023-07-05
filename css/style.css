@@ -491,7 +491,7 @@ body {
     padding: 0.5rem 0rem;
 }
 
-.carga {
+#carga {
     position: fixed;
     top: 0;
     left: 0;
@@ -503,7 +503,7 @@ body {
     align-items: center;
 }
 
-.carga {
+#carga {
     position: fixed;
     top: 0;
     left: 0;
@@ -516,7 +516,7 @@ body {
     align-items: center;
 }
 
-.carga::after {
+#carga::after {
     content: '';
     width: 50px;
     height: 50px;
@@ -526,7 +526,7 @@ body {
     animation: spin 1s linear infinite;
 }
 
-.carga {
+#carga {
     display: none;
 }
 
