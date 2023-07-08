@@ -492,18 +492,8 @@ body {
 }
 
 #carga {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#carga {
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -528,6 +518,26 @@ body {
 
 #carga {
     display: none;
+}
+
+#carga h2 {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    animation: text-animation 1.2s infinite ease-in-out;
+}
+
+@keyframes text-animation {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
 
 .modalDialog .container-modal {
@@ -615,34 +625,42 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 800px) {
+
     .timeline ol,
     .timeline ol li {
         width: auto;
     }
+
     .timeline ol {
         padding: 0;
         transform: none !important;
     }
+
     .timeline ol li {
         display: block;
         height: auto;
         background: transparent;
     }
+
     .timeline ol li:first-child {
         margin-top: 25px;
     }
+
     .timeline ol li:not(:first-child) {
         margin-left: auto;
     }
+
     .timeline ol li div {
         position: static;
         width: 94%;
         height: auto !important;
         margin: 0 auto 25px;
     }
+
     .timeline ol li:nth-child(odd) div {
         transform: none;
     }
+
     .timeline ol li:nth-child(odd) div::before,
     .timeline ol li:nth-child(even) div::before {
         left: 50%;
@@ -652,12 +670,14 @@ body {
         border-left: 1px solid white;
         height: 25px;
     }
+
     .timeline ol li:last-child,
     .timeline ol li:nth-last-child(2) div::before,
     .timeline ol li:not(:last-child)::after,
     .timeline .arrows {
         display: none;
     }
+
     @media (max-width: 1024px) {
         .navbar {
             position: fixed;
@@ -665,9 +685,11 @@ body {
             bottom: 0;
             padding: 0.5rem;
         }
+
         .navbar ul.navbar-text {
             display: none;
         }
+
         .navbar ul.navbar-logo {
             display: flex;
             flex-direction: row;
@@ -677,32 +699,39 @@ body {
             gap: 55px;
             list-style: none;
         }
+
         .social {
             display: none;
             margin: 0px;
             padding: 0px;
         }
+
         .hero-container {
             display: block;
             text-align: justify;
             padding-left: 0rem;
         }
+
         .hero-container ul {
             column-count: 2;
             column-gap: 25px;
             text-align: start;
         }
+
         .hero-information {
             padding: 2rem;
             margin-left: 0rem;
         }
+
         .hero-image img {
             display: none;
         }
+
         .container-project {
             margin: 0rem;
             padding: 2rem 0rem;
         }
+
         .container-project .projects {
             display: grid;
             grid-gap: 13rem;
@@ -713,13 +742,16 @@ body {
             justify-content: left;
             align-items: left;
         }
+
         .container-project .projects::-webkit-scrollbar {
             width: 0;
         }
+
         .container-project>h2,
         .container-project>div>h2 {
             text-align: center;
         }
+
         .tools {
             column-count: 1;
             margin: 0rem;
@@ -728,13 +760,16 @@ body {
             align-items: center;
             align-content: center;
         }
+
         .card-project:hover {
             transform: none;
         }
+
         #contact {
             padding: 2rem;
             padding-bottom: 16rem;
         }
+
         #contact #wrapper {
             display: flex;
             flex-direction: column;
@@ -742,16 +777,20 @@ body {
             align-items: center;
             padding: auto;
         }
+
         #contact #wrapper .contact-form input {
             width: 100%;
         }
+
         #contact #wrapper .contact-form textarea {
             width: 100%;
         }
+
         .modalDialog>div {
             width: 90%;
             margin: 0rem auto;
         }
+
         .modalDialog .container-modal {
             display: flex;
             flex-direction: column;
