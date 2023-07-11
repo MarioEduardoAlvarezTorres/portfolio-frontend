@@ -1,0 +1,339 @@
+[
+    {
+        "id": "8ceeac43-f59f-4c1c-815f-9fa6346dcd1c",
+        "name": "recetas_bedu",
+        "description": "Proyecto realizado consumiendo el API mealAPI para el campboot de BEDU Santander",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "css",
+            "html",
+            "javascript"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/recetas_bedu",
+            "https://celebrated-tarsier-436784.netlify.app",
+            "https://www.youtube.com/watch?v=qblsKD14_ac",
+            "https://www.figma.com/file/IpgVoRP3Yb9ZjqzV7XNSPX/Recetas?type=design&node-id=0-1&mode=design&t=FvkaIhWJTcph707k-0"
+        ],
+        "tag": "HTML-CSS-JS",
+        "images": [
+            "https://i.postimg.cc/cLHQ2nyj/Recetas.webp",
+            "https://i.postimg.cc/yYnmLT5c/Recetas2.webp"
+        ]
+    },
+    {
+        "id": "da0c36a7-0578-4bbc-b5ae-69ae329dbfe9",
+        "name": "matcha",
+        "description": "Proyecto realizado en el bootcamp impartido por Santander en el programa Frontend fundamentals para poder desarrollar las habilidades con lo aprendido en HTML y CSS",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "css",
+            "html"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/bootcamp-bedu-frontend",
+            "https://matchabedueduardo.netlify.app/#"
+        ],
+        "tag": "HTML-CSS",
+        "images": [
+            "https://i.postimg.cc/Mp3txxr1/imagen-2023-06-27-103910629.png"
+        ]
+    },
+    {
+        "id": "e0f65460-4106-445f-836b-e256ad726688",
+        "name": "Cake-Shop",
+        "description": "Proyecto de aprendizaje del bootcamp LaunchX de Microsoft en el que se busca desarrollar las habilidades con lo aprendido en HTML y CSS",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "css",
+            "html",
+            "javascript"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/cake-shop.github.io",
+            "https://marioeduardoalvareztorres.github.io/cake-shop.github.io/src/html/index.html"
+        ],
+        "tag": "HTML-CSS",
+        "images": [
+            "https://marioeduardoalvareztorres.github.io/cake-shop.github.io/src/img/pastel.png"
+        ]
+    },
+    {
+        "id": "8f96e1b7-3d4d-4e28-8fc0-b99a7f029dfc",
+        "name": "Car-Dealership",
+        "description": "Car Dealership es un proyecto de aprendizaje para la implementación de conocimientos de la herramienta Nestjs donde se creó un concesionario de Autos donde podemos registrar, obtener, actualizar, eliminar autos para nuestro concesionario. dentro de este proyecto se aprendió:Crear un proyecto en Nest, Uso de módulos, Uso de Controladores, Uso de Servicios, Inyección de dependencias, Pipes, Implementación del CRUD, Uso de DTOs y validación de información",
+        "developerToolsBackend": [
+            "nodejs",
+            "nestjs",
+            "typescript"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/car-dealership/tree/c26c6b39029c78a29963deb111af2d15a35e8697",
+            "https://car-dealership-3gbp.onrender.com/cars"
+        ],
+        "tag": "NESTJS",
+        "images": [
+            "https://i.postimg.cc/VvsfftKN/imagen-2023-06-27-105007598.png"
+        ]
+    },
+    {
+        "id": "1bce4857-c339-4502-8e88-a706a136f129",
+        "name": "PokeDex",
+        "description": "En este proyecto se aprende a grabar los datos en base de datos haciendo uso de MongoBD. También se introducen nuevos conocimientos como:El uso de dockerCompose, Conexiones de Nest a Mongo, CustomPipes, SEED y paginación",
+        "developerToolsBackend": [
+            "nodejs",
+            "nestjs",
+            "typescript"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/pokedex-nestjs/tree/e404e7107be19e488adf5dd5fb76014acafe6301",
+            "https://pokedex-tgvq.onrender.com"
+        ],
+        "tag": "NESTJS",
+        "images": [
+            "https://i.postimg.cc/tJG4wzvZ/imagen-2023-06-27-110553889.png"
+        ]
+    },
+    {
+        "id": "481bec8b-a92a-4cdb-bda2-bef6b733564e",
+        "name": "Teslo-Nest",
+        "description": "Teslo es un proyecto que simula ser una tienda de ropa en línea, dentro de este proyecto se aprendió:El uso de postgres con Docker, Uso de TypeORM, Manejo de errores, BeforeInsert y beforeUpdate, Uso de QueryBuilder, Implementación de relaciones con TypeORM, Carga de Archivos, Uso de JwtStrategy, Uso de Rutas Privadas, Encriptación de contraseñas con bcrypt, Documentación del API",
+        "developerToolsBackend": [
+            "nodejs",
+            "nestjs",
+            "typescript",
+            "postgres",
+            "docker"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/teslo-nest/tree/2e90201fdf7d5c52c46896ce3256325307a66c02"
+        ],
+        "tag": "NESTJS",
+        "images": [
+            "https://i.postimg.cc/WbbDMTKQ/imagen-2023-06-27-112208506.png"
+        ]
+    },
+    {
+        "id": "13564c56-6227-4da8-92b6-9b559d329528",
+        "name": "Administrador de tareas",
+        "description": "Proyecto de aprendizaje del curso “Node: De cero a experto” en el que se crea una aplicación de consola interactiva, con opciones que se puedan seleccionar con las teclas direccionales, números y con la tecla espaciadora cuando hay múltiples opciones.Dentro de este proyecto se aprendió: stdin, stdout, ciclos, inquirer, clases en JavaScript, archivos JSON, async/await y transformaciones.",
+        "developerToolsBackend": [
+            "nodejs",
+            "javascript",
+            "express"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/curso-node-de-cero-a-experto-udemy/tree/main/Sección%205%20-%20Aplicación%20de%20consola%20interactiva/Tareas-hacer"
+        ],
+        "tag": "EXPRESS",
+        "images": [
+            "https://i.postimg.cc/hvtN2rXn/tareas.png"
+        ]
+    },
+    {
+        "id": "f2ce2612-80c1-4d79-be4c-dafa1eb56e71",
+        "name": "Aplicacion de clima",
+        "description": "Proyecto de aprendizaje del curso “Node: De cero a experto” en el que se crea una aplicación de consola interactiva que nos permite consular el clima del lugar que queramos consumiendo un API. Dentro de este proyecto se aprendió: Consumo de APIs: Llamadas HTTP hacia servidores externos, paquete request, paquete Axios, mapbox places para obtener lugares por nombre, uso de OpenWeather para obtener el clima, aplicación de consola con historial y el uso de variables de entorno.",
+        "developerToolsBackend": [
+            "nodejs",
+            "javascript",
+            "express"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/curso-node-de-cero-a-experto-udemy/tree/main/Sección%206%20-%20Aplicación%20del%20clima/Aplicacion-clima"
+        ],
+        "tag": "EXPRESS",
+        "images": [
+            "https://i.postimg.cc/zDWFbWv2/aplicacion-de-clima.png"
+        ]
+    },
+    {
+        "id": "e14fc8a0-fd08-4922-b665-ae43a1f98c5b",
+        "name": "WebServer - RESTServer",
+        "description": "Proyecto de aprendizaje del curso “Node: De cero a experto” en el que se crea un web server haciendo uso de express, express y hbs donde se aprendió:  Uso y configuración de Express, Servir contenido estático, Servir contenido dinámico, Template engines y Handlebars Parciales y Variables. Este mismo proyecto escaló a un REST server en el que también se aprendió: Definir los alcances de nuestro RESTServer, CRUD, Encriptación de contraseñas, Validaciones personalizadas, Creación de roles, Conexiones con MLAB, Introducción a los tokens, JWT, Login personalizado, Protección de rutas vía token y a leer payload del token sin la firma.",
+        "developerToolsBackend": [
+            "nodejs",
+            "javascript",
+            "express"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/curso-node-de-cero-a-experto-udemy"
+        ],
+        "tag": "EXPRESS",
+        "images": [
+            "https://i.postimg.cc/257F9fRp/seccion-8.png"
+        ]
+    },
+    {
+        "id": "3c6da3a7-6ca2-4d34-9356-68fac0e2857d",
+        "name": "Backbedu- Peliculas",
+        "description": "Proyecto final del bootcamp de Santander-BEDU del programa “Programación con JavaScript I, Backend fundamentals” en el que se crea un API de películas dentro de la cual se pueden registrar usuario y administradores donde los primeros podrán consultar y comentar películas y los segundos pueden editar, crear, actualizar y modificar películas. Se emplean conocimientos en: Express, casl, JWT, relaciones y sequelize.",
+        "developerToolsBackend": [
+            "nodejs",
+            "javascript",
+            "express",
+            "sequelize",
+            "postgres"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/backbedu",
+            "https://bedu-node-app.herokuapp.com/movie/1",
+            "https://www.youtube.com/watch?v=N_0RXYnRjZ0"
+        ],
+        "tag": "EXPRESS",
+        "images": [
+            "https://i.postimg.cc/fbhTTJ2d/imagen-2023-06-27-155604752.png"
+        ]
+    },
+    {
+        "id": "cfad96b8-50d0-4e7b-842d-c8032ae57542",
+        "name": "GifExpertApp",
+        "description": "Proyecto de aprendizaje del curso React: De cero a experto ( Hooks y MERN ). Esta es una aplicación pequeña pero muy ilustrativa que explica cómo utilizar React + customHooks para poder resolver necesidades en específico que podremos reutilizar después. Se aprendió: Custom Hooks, Fetch hacia un API, Comunicación entre componentes, Clases de CSS, Animaciones, Enviar métodos como argumentos, Crear listados, keys y Giphy",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "react",
+            "html",
+            "javascript"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/react",
+            "https://celadon-valkyrie-788691.netlify.app"
+        ],
+        "tag": "REACT",
+        "images": [
+            "https://i.postimg.cc/sxgd2P6V/imagen-2023-07-04-162726424.png"
+        ]
+    },
+    {
+        "id": "8b3eebfa-650d-4bca-8e4b-14ed8e31e5f9",
+        "name": "PORTAL - PRECITOOL",
+        "description": "Proyecto realizado durante mis prácticas profesionales donde participe en el diseño de un portal web para la empresa Precitool, creando interfaces gráficas de usuario y diseñando templates para la parte del frontend y la creación e implementación de un panel administrador encargado de la gestión de la base de datos para la parte del backend, haciendo uso de frameworks que trabajan con Nodejs para su desarrollo.Dentro del programa se desarrolló una curva de aprendizaje en herramientas de diseño como Figma y tecnologías utilizadas en el desarrollo de Backend como TypeScript,Nestjs, SQL Server, MySQL y git.",
+        "developerToolsBackend": [
+            "nodejs",
+            "nestjs",
+            "typescript",
+            "mysql",
+            "typeorm",
+            "hbs"
+        ],
+        "developerToolsFrontend": [
+            "figma"
+        ],
+        "links": null,
+        "tag": "NESTJS",
+        "images": [
+            "https://precitool.com/wp-content/uploads/2021/10/Logoprecitool200px-2.png"
+        ]
+    },
+    {
+        "id": "bc26b790-f89d-4886-b707-c18658d897bc",
+        "name": "Adara",
+        "description": "Proyecto en que participé en mi servicio social para TUTOAULA que busca ayudar a niños con problemas en las áreas de Lecto-escritura, Inteligencia Emocional y Dislexia donde colaboré a realizar vistas en REACT",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "react",
+            "css",
+            "javascript",
+            "bootstrap",
+            "figma"
+        ],
+        "links": [
+            "",
+            "",
+            "",
+            "https://www.figma.com/file/FgfKnHrdmScxm8gMdh6Hr4/Adaraoficial?type=design&node-id=1279-31067&mode=design&t=Sp1EF16hBSEGLAb3-0"
+        ],
+        "tag": "REACT",
+        "images": [
+            "https://i.postimg.cc/xCk480M4/imagen-2023-07-04-170720913.png"
+        ]
+    },
+    {
+        "id": "ca53f570-5827-4903-afce-d9236dcd3f5b",
+        "name": "Bienestar Animal",
+        "description": "Proyecto en que participé en mi servicio social para TUTOAULA que busca ayudar animales que requieran de algun tipo de ayuda para salvaguardarlo donde realicé el diseño de la base de datos y su posterior implementación en compañía de  Margaret Calvario. Dentro de este proyecto se hizo uso de Express, Sequelize, casl, jwt y MySQL",
+        "developerToolsBackend": [
+            "nodejs",
+            "javascript",
+            "express",
+            "sequelize",
+            "mysql"
+        ],
+        "developerToolsFrontend": null,
+        "links": [
+            "",
+            "",
+            "",
+            "https://www.figma.com/file/wPaEvH0RThYijzcGx3BnGk/Animalitos?type=design&node-id=404-1798&mode=design&t=UKNybTiluuxw2oiJ-0"
+        ],
+        "tag": "EXPRESS",
+        "images": [
+            "https://i.postimg.cc/nczfftwN/imagen-2023-07-04-171313955.png"
+        ]
+    },
+    {
+        "id": "0956c0c0-6a77-4eb0-8a57-411d3573f1c9",
+        "name": "Comic App",
+        "description": "Proyecto de aprendizaje del curso “Angular: De cero a experto” en el cual se creará una SPA donde sea prendió sobre: La creación de proyectos de Angular usando el CLI, uso de bootstrap, creación de rutas, uso de RouterLink y RouterLinkActive (para movernos de página y colocar clases a los elementos activos), uso del módulo Router(que nos permite movernos de página mediante código), obtención de parámetros vía URL, configuración un servicio en Angular para el manejo de la data y el uso del buscador del navbar para realizar una consulta a nuestro arreglo de héroes.",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "figma",
+            "bootstrap",
+            "angular",
+            "html"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/appAngular2",
+            "https://comic-meat.netlify.app/#/heroes"
+        ],
+        "tag": "ANGULAR",
+        "images": [
+            "https://i.postimg.cc/qvL8sqzG/imagen-2023-07-06-165706240.png"
+        ]
+    },
+    {
+        "id": "a2ed5437-e0f7-421c-80de-9d4a61f614a5",
+        "name": "Pipes en angular",
+        "description": "Proyecto de aprendizaje que muestra como funcionan los pipes incorpotados de angular y los pipes que se crearan en la seccion",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "bootstrap",
+            "css",
+            "angular"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/appAngular3",
+            "https://pipes-meat.netlify.app"
+        ],
+        "tag": "ANGULAR",
+        "images": [
+            "https://i.postimg.cc/qMpJG4DM/imagen-2023-07-06-203628404.png"
+        ]
+    },
+    {
+        "id": "711c7da4-3a97-47ca-8df6-812296359667",
+        "name": "Spotiapp (In Progress)",
+        "description": "Proyecto de aprendizaje en Angular que consume el API de Spotify (si no se llegara a mostrar el contenido es debido a qu el token expira)",
+        "developerToolsBackend": null,
+        "developerToolsFrontend": [
+            "bootstrap",
+            "css",
+            "angular"
+        ],
+        "links": [
+            "https://github.com/MarioEduardoAlvarezTorres/appAngular4",
+            "https://spotiapp-meat.netlify.app/"
+        ],
+        "tag": "ANGULAR",
+        "images": [
+            "https://i.postimg.cc/YqQ5hJsW/imagen-2023-07-07-174833189.png"
+        ]
+    }
+]

@@ -1,6 +1,9 @@
-const urlback = "https://portfolio-l2h9.onrender.com/api/projects";
+//const urlback = "https://portfolio-l2h9.onrender.com/api/projects";
+
+const urlback = "/data/frontend-backend.json";
 let cardsback = "";
 let toolsBackend = ["EXPRESS", "NESTJS"];
+
 document.getElementById("carga").style.display = "flex";
 fetch(urlback)
   .then((res) => res.json())

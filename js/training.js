@@ -1,5 +1,8 @@
-const urlTraining = "https://portfolio-l2h9.onrender.com/api/academic-training";
+//const urlTraining = "https://portfolio-l2h9.onrender.com/api/academic-training";
+
+const urlTraining = "/data/training.json";
 let trainingcard = "";
+
 document.getElementById("carga").style.display = "flex";
 fetch(urlTraining)
   .then((res) => res.json())

@@ -1,6 +1,9 @@
-const url = "https://portfolio-l2h9.onrender.com/api/projects";
+//const url = "https://portfolio-l2h9.onrender.com/api/projects";
+
+const url = "/data/frontend-backend.json";
 let cards = "";
 let toolsFrontend = ["HTML-CSS", "HTML-CSS-JS", "REACT", "ANGULAR"];
+
 document.getElementById("carga").style.display = "flex";
 fetch(url)
   .then((res) => res.json())
