@@ -553,14 +553,18 @@ body {
 }
 
 .modalDialog .container-modal #information {
-    max-height: 400px;
+    max-height: 60vh;
     overflow-x: auto;
-    padding: 1rem;
+    padding: 4rem;
 }
 
 .modalDialog .container-modal #information>p,
 .modalDialog .container-modal #information>h2 {
     padding-bottom: 1rem;
+}
+
+.modalDialog .container-modal #information>h2 {
+    text-align: center;
 }
 
 .modalDialog .container-modal #information>a.link {
@@ -799,6 +803,10 @@ body {
         .modalDialog .container-modal {
             display: flex;
             flex-direction: column;
+        }
+
+        .modalDialog .container-modal #information {
+            padding: 1rem;
         }
     }
 }
