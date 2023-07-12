@@ -543,6 +543,7 @@ body {
 .modalDialog .container-modal {
     display: grid;
     grid-template-columns: 40% 60%;
+    width: 80%;
 }
 
 .modalDialog .container-modal img {
@@ -552,6 +553,8 @@ body {
 }
 
 .modalDialog .container-modal #information {
+    max-height: 400px;
+    overflow-x: auto;
     padding: 1rem;
 }
 
@@ -574,6 +577,8 @@ body {
     z-index: 99999;
     opacity: 0;
     pointer-events: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .modalDialog:target {
