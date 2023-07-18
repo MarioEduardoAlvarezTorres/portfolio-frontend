@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "8ceeac43-f59f-4c1c-815f-9fa6346dcd1c",
         "name": "recetas_bedu",
         "description": "Proyecto realizado consumiendo el API mealAPI para el campboot de BEDU Santander",
@@ -319,8 +318,8 @@
     },
     {
         "id": "711c7da4-3a97-47ca-8df6-812296359667",
-        "name": "Spotiapp (In Progress)",
-        "description": "Proyecto de aprendizaje en Angular que consume el API de Spotify (si no se llegara a mostrar el contenido es debido a qu el token expira)",
+        "name": "Spotiapp",
+        "description": "Proyecto de aprendizaje en Angular que consume el API de Spotify, se implementa busqueda de artistas y se muestra el contenido del mismo (si no se llegara a mostrar el contenido es debido a que el token expira)",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
             "bootstrap",
