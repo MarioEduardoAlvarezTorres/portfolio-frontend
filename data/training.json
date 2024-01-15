@@ -27,5 +27,11 @@
         "title": "Precitool",
         "date": "Diciembre 2022 – Junio 2023",
         "description": "Diseño y creación de panel administrador del portal de la página principal"
+    },
+    {
+        "id": "885f79d9-af6a-45a9-b67b-6e2e77b41fd8",
+        "title": "Grupo TractoZone",
+        "date": "Agosto 2023 – Enero 2024",
+        "description": "Implementacion y optimizacion de modulos para los sistemas ERP y CRM de la empresa"
     }
 ]

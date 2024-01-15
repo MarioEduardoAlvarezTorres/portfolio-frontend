@@ -334,5 +334,24 @@
         "images": [
             "https://i.postimg.cc/YqQ5hJsW/imagen-2023-07-07-174833189.png"
         ]
+    },
+    {
+        "id": "711c7da4-3a97-47ca-8df6-812296359668",
+        "name": "Grupo TractoZone",
+        "description": "Me encargué de la implementación y optimización de diversos módulos para el área de ventas, devoluciones, recursos humanos, flotilla, en los sistemas ERP y CRM de la empresa, haciendo uso de .NET y procedimientos almacenados con SQL Server para el backend, y KendoGrid para el frontend.",
+        "developerToolsBackend": [
+            ".NET",
+            "Sql Server"
+        ],
+        "developerToolsFrontend": [
+            "KendoGrid",
+            "CSS",
+            "JQuery"
+        ],
+        "links": [],
+        "tag": ".NET",
+        "images": [
+            "https://media.licdn.com/dms/image/C510BAQHmvsWssAXnvw/company-logo_200_200/0/1631386175960?e=2147483647&v=beta&t=oU8O4XmBFHdYtndNwXfUMPQHJN2qV9ApRv8Qg9qvng4"
+        ]
     }
 ]
