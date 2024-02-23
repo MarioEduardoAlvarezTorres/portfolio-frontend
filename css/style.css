@@ -109,11 +109,11 @@ body {
     color: var(--blanco);
     padding: 5px 0px;
     text-decoration: none;
-    transition: all 500ms ease;
+    transition: transform 300ms ease;
 }
 
 .social ul li a:hover {
-    padding: 10px 20px;
+    transform: scale(1.5);
 }
 
 
@@ -543,7 +543,7 @@ body {
 .modalDialog .container-modal {
     display: grid;
     grid-template-columns: 40% 60%;
-    width: 80%;
+    width: 50%;
 }
 
 .modalDialog .container-modal img {

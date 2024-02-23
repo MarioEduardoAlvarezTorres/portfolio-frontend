@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "8ceeac43-f59f-4c1c-815f-9fa6346dcd1c",
         "name": "recetas_bedu",
         "description": "Proyecto realizado consumiendo el API mealAPI para el campboot de BEDU Santander",
@@ -87,8 +88,7 @@
         ],
         "developerToolsFrontend": null,
         "links": [
-            "https://github.com/MarioEduardoAlvarezTorres/pokedex-nestjs/tree/e404e7107be19e488adf5dd5fb76014acafe6301",
-            "https://pokedex-tgvq.onrender.com"
+            "https://github.com/MarioEduardoAlvarezTorres/pokedex-nestjs/tree/e404e7107be19e488adf5dd5fb76014acafe6301"
         ],
         "tag": "NESTJS",
         "images": [
@@ -225,10 +225,13 @@
         "developerToolsFrontend": [
             "figma"
         ],
-        "links": null,
+        "links": [
+            "",
+            "https://www.precitool.com"
+        ],
         "tag": "NESTJS",
         "images": [
-            "https://precitool.com/wp-content/uploads/2021/10/Logoprecitool200px-2.png"
+            "https://cegresados.udlap.mx/wp-content/uploads/2021/02/Alta-Tecnologia-Precitool-SA-de-CV.jpg"
         ]
     },
     {
