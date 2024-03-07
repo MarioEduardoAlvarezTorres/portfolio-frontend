@@ -1,0 +1,211 @@
+/* PROJECT */
+
+.project {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10%;
+}
+
+.links-container {
+    display: flex;
+    align-self: flex-end;
+    text-align: end;
+    gap: 10px;
+}
+
+.container-tool {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-container {
+    padding: 0rem 10%;
+}
+
+.project-shadow {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin: 1rem;
+}
+
+.project {
+    height: 250px;
+    width: 250px;
+}
+
+.project[data-radius="none"] {
+    border-radius: 0px;
+}
+
+.project {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #ffffff;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    /* ANIMATION */
+    transition: transform 500ms ease;
+    transform-origin: top center;
+}
+
+.project-shadow:before {
+    background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -12%;
+    content: "";
+    display: block;
+    left: -12%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+/* COLORS */
+
+.project[data-color="blue"] {
+    background: #b8d8d8;
+}
+
+.project[data-color="blue"] p {
+    color: #506568;
+}
+
+.project[data-color="green"] {
+    background: #d5e5a3;
+}
+
+.project[data-color="green"] p {
+    color: #60773d;
+}
+
+.project[data-color="green"] .category {
+    color: #92ac56;
+}
+
+.project[data-color="yellow"] {
+    background: #ffe28c;
+}
+
+.project[data-color="yellow"] p {
+    color: #b25825;
+}
+
+.project[data-color="yellow"] .category {
+    color: #d88715;
+}
+
+.project[data-color="brown"] {
+    background: #d6c1ab;
+}
+
+.project[data-color="brown"] p {
+    color: #75442e;
+}
+
+.project[data-color="brown"] .category {
+    color: #a47e65;
+}
+
+.project[data-color="purple"] {
+    background: #baa9ba;
+}
+
+.project[data-color="purple"] p {
+    color: #3a283d;
+}
+
+.project[data-color="purple"] .category {
+    color: #5a283d;
+}
+
+.project[data-color="orange"] {
+    background: #ff8f5e;
+}
+
+.project[data-color="orange"] p {
+    color: #772510;
+}
+
+.project[data-color="orange"] .category {
+    color: #e95e37;
+}
+
+.project:hover {
+    transform: rotateX(-20deg);
+}
+
+
+/* MODAL */
+
+.project-container>.modal-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 5px;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    z-index: 1;
+}
+
+.project-container>.modal-container>.modal-left img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.project-container>.modal-container>.modal-right {
+    overflow-x: auto;
+}
+
+.project-container>.modal-container>.modal-right>#modal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5% 10%;
+}
+
+.project-container>.modal-container>.modal-right>p#description {
+    height: 60%;
+    overflow-x: auto;
+}
+
+button#ocultarModal {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #c9c9c9;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+button.show-information {
+    all: unset;
+    cursor: pointer;
+}
+
+#ocultarModal,
+.show-information,
+.link:hover {
+    cursor: pointer;
+}

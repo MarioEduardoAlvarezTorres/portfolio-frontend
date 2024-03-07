@@ -1,0 +1,50 @@
+/* ENTRADA SUAVE*/
+
+@keyframes slow-in {
+    from {
+        transform: translateY(10%);
+        opacity: 0.5;
+        filter: blur(3px);
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.slow-in {
+    animation: slow-in 2s;
+}
+
+
+/* BARRA DE PROGRESO */
+
+@keyframes fillAnimation {
+    to {
+        width: var(--percentage);
+        background: #3F7465;
+    }
+}
+
+.animate {
+    animation: fillAnimation 3s ease-out forwards;
+}
+
+
+/* LINEA DE TIEMPO */
+
+@keyframes timeLine {
+    from {
+        transform: translateX(80%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.timeLine {
+    animation: timeLine 2s ease-out forwards;
+}

@@ -1,7 +1,7 @@
 [
     {
         "id": "8ceeac43-f59f-4c1c-815f-9fa6346dcd1c",
-        "name": "recetas_bedu",
+        "name": "recetas_bedu 👨‍🍳",
         "description": "Proyecto realizado consumiendo el API mealAPI para el campboot de BEDU Santander",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -34,14 +34,14 @@
             "https://github.com/MarioEduardoAlvarezTorres/bootcamp-bedu-frontend",
             "https://matchabedueduardo.netlify.app/#"
         ],
-        "tag": "HTML-CSS",
+        "tag": "HTML-CSS-JS",
         "images": [
             "https://i.postimg.cc/Mp3txxr1/imagen-2023-06-27-103910629.png"
         ]
     },
     {
         "id": "e0f65460-4106-445f-836b-e256ad726688",
-        "name": "Cake-Shop",
+        "name": "Cake-Shop 🎂",
         "description": "Proyecto de aprendizaje del bootcamp LaunchX de Microsoft en el que se busca desarrollar las habilidades con lo aprendido en HTML y CSS",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -53,14 +53,14 @@
             "https://github.com/MarioEduardoAlvarezTorres/cake-shop.github.io",
             "https://marioeduardoalvareztorres.github.io/cake-shop.github.io/src/html/index.html"
         ],
-        "tag": "HTML-CSS",
+        "tag": "HTML-CSS-JS",
         "images": [
             "https://marioeduardoalvareztorres.github.io/cake-shop.github.io/src/img/pastel.png"
         ]
     },
     {
         "id": "8f96e1b7-3d4d-4e28-8fc0-b99a7f029dfc",
-        "name": "Car-Dealership",
+        "name": "Car-Dealership ⛍",
         "description": "Car Dealership es un proyecto de aprendizaje para la implementación de conocimientos de la herramienta Nestjs donde se creó un concesionario de Autos donde podemos registrar, obtener, actualizar, eliminar autos para nuestro concesionario. dentro de este proyecto se aprendió:Crear un proyecto en Nest, Uso de módulos, Uso de Controladores, Uso de Servicios, Inyección de dependencias, Pipes, Implementación del CRUD, Uso de DTOs y validación de información",
         "developerToolsBackend": [
             "nodejs",
@@ -79,7 +79,7 @@
     },
     {
         "id": "1bce4857-c339-4502-8e88-a706a136f129",
-        "name": "PokeDex",
+        "name": "PokeDex 👾",
         "description": "En este proyecto se aprende a grabar los datos en base de datos haciendo uso de MongoBD. También se introducen nuevos conocimientos como:El uso de dockerCompose, Conexiones de Nest a Mongo, CustomPipes, SEED y paginación",
         "developerToolsBackend": [
             "nodejs",
@@ -97,7 +97,7 @@
     },
     {
         "id": "481bec8b-a92a-4cdb-bda2-bef6b733564e",
-        "name": "Teslo-Nest",
+        "name": "Teslo-Nest 👚",
         "description": "Teslo es un proyecto que simula ser una tienda de ropa en línea, dentro de este proyecto se aprendió:El uso de postgres con Docker, Uso de TypeORM, Manejo de errores, BeforeInsert y beforeUpdate, Uso de QueryBuilder, Implementación de relaciones con TypeORM, Carga de Archivos, Uso de JwtStrategy, Uso de Rutas Privadas, Encriptación de contraseñas con bcrypt, Documentación del API",
         "developerToolsBackend": [
             "nodejs",
@@ -117,7 +117,7 @@
     },
     {
         "id": "13564c56-6227-4da8-92b6-9b559d329528",
-        "name": "Administrador de tareas",
+        "name": "Administrador de tareas 📝",
         "description": "Proyecto de aprendizaje del curso “Node: De cero a experto” en el que se crea una aplicación de consola interactiva, con opciones que se puedan seleccionar con las teclas direccionales, números y con la tecla espaciadora cuando hay múltiples opciones.Dentro de este proyecto se aprendió: stdin, stdout, ciclos, inquirer, clases en JavaScript, archivos JSON, async/await y transformaciones.",
         "developerToolsBackend": [
             "nodejs",
@@ -135,7 +135,7 @@
     },
     {
         "id": "f2ce2612-80c1-4d79-be4c-dafa1eb56e71",
-        "name": "Aplicacion de clima",
+        "name": "Aplicacion de clima ⛈️",
         "description": "Proyecto de aprendizaje del curso “Node: De cero a experto” en el que se crea una aplicación de consola interactiva que nos permite consular el clima del lugar que queramos consumiendo un API. Dentro de este proyecto se aprendió: Consumo de APIs: Llamadas HTTP hacia servidores externos, paquete request, paquete Axios, mapbox places para obtener lugares por nombre, uso de OpenWeather para obtener el clima, aplicación de consola con historial y el uso de variables de entorno.",
         "developerToolsBackend": [
             "nodejs",
@@ -171,7 +171,7 @@
     },
     {
         "id": "3c6da3a7-6ca2-4d34-9356-68fac0e2857d",
-        "name": "Backbedu- Peliculas",
+        "name": "Backbedu- Peliculas 🎬",
         "description": "Proyecto final del bootcamp de Santander-BEDU del programa “Programación con JavaScript I, Backend fundamentals” en el que se crea un API de películas dentro de la cual se pueden registrar usuario y administradores donde los primeros podrán consultar y comentar películas y los segundos pueden editar, crear, actualizar y modificar películas. Se emplean conocimientos en: Express, casl, JWT, relaciones y sequelize.",
         "developerToolsBackend": [
             "nodejs",
@@ -193,7 +193,7 @@
     },
     {
         "id": "cfad96b8-50d0-4e7b-842d-c8032ae57542",
-        "name": "GifExpertApp",
+        "name": "GifExpertApp 🎞️",
         "description": "Proyecto de aprendizaje del curso React: De cero a experto ( Hooks y MERN ). Esta es una aplicación pequeña pero muy ilustrativa que explica cómo utilizar React + customHooks para poder resolver necesidades en específico que podremos reutilizar después. Se aprendió: Custom Hooks, Fetch hacia un API, Comunicación entre componentes, Clases de CSS, Animaciones, Enviar métodos como argumentos, Crear listados, keys y Giphy",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -212,7 +212,7 @@
     },
     {
         "id": "8b3eebfa-650d-4bca-8e4b-14ed8e31e5f9",
-        "name": "PORTAL - PRECITOOL",
+        "name": "PORTAL - PRECITOOL 🪟 🖥️",
         "description": "Proyecto realizado durante mis prácticas profesionales donde participe en el diseño de un portal web para la empresa Precitool, creando interfaces gráficas de usuario y diseñando templates para la parte del frontend y la creación e implementación de un panel administrador encargado de la gestión de la base de datos para la parte del backend, haciendo uso de frameworks que trabajan con Nodejs para su desarrollo.Dentro del programa se desarrolló una curva de aprendizaje en herramientas de diseño como Figma y tecnologías utilizadas en el desarrollo de Backend como TypeScript,Nestjs, SQL Server, MySQL y git.",
         "developerToolsBackend": [
             "nodejs",
@@ -236,7 +236,7 @@
     },
     {
         "id": "bc26b790-f89d-4886-b707-c18658d897bc",
-        "name": "Adara",
+        "name": "Adara 📚",
         "description": "Proyecto en que participé en mi servicio social para TUTOAULA que busca ayudar a niños con problemas en las áreas de Lecto-escritura, Inteligencia Emocional y Dislexia donde colaboré a realizar vistas en REACT",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -259,7 +259,7 @@
     },
     {
         "id": "ca53f570-5827-4903-afce-d9236dcd3f5b",
-        "name": "Bienestar Animal",
+        "name": "Bienestar Animal 🐾",
         "description": "Proyecto en que participé en mi servicio social para TUTOAULA que busca ayudar animales que requieran de algun tipo de ayuda para salvaguardarlo donde realicé el diseño de la base de datos y su posterior implementación en compañía de  Margaret Calvario. Dentro de este proyecto se hizo uso de Express, Sequelize, casl, jwt y MySQL",
         "developerToolsBackend": [
             "nodejs",
@@ -282,7 +282,7 @@
     },
     {
         "id": "0956c0c0-6a77-4eb0-8a57-411d3573f1c9",
-        "name": "Comic App",
+        "name": "Comic App 🦸‍♂️",
         "description": "Proyecto de aprendizaje del curso “Angular: De cero a experto” en el cual se creará una SPA donde sea prendió sobre: La creación de proyectos de Angular usando el CLI, uso de bootstrap, creación de rutas, uso de RouterLink y RouterLinkActive (para movernos de página y colocar clases a los elementos activos), uso del módulo Router(que nos permite movernos de página mediante código), obtención de parámetros vía URL, configuración un servicio en Angular para el manejo de la data y el uso del buscador del navbar para realizar una consulta a nuestro arreglo de héroes.",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -302,7 +302,7 @@
     },
     {
         "id": "a2ed5437-e0f7-421c-80de-9d4a61f614a5",
-        "name": "Pipes en angular",
+        "name": "Pipes en angular 🧾",
         "description": "Proyecto de aprendizaje que muestra como funcionan los pipes incorpotados de angular y los pipes que se crearan en la seccion",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -321,7 +321,7 @@
     },
     {
         "id": "711c7da4-3a97-47ca-8df6-812296359667",
-        "name": "Spotiapp",
+        "name": "Spotiapp 🟢⏯",
         "description": "Proyecto de aprendizaje en Angular que consume el API de Spotify, se implementa busqueda de artistas y se muestra el contenido del mismo (si no se llegara a mostrar el contenido es debido a que el token expira)",
         "developerToolsBackend": null,
         "developerToolsFrontend": [
@@ -340,7 +340,7 @@
     },
     {
         "id": "711c7da4-3a97-47ca-8df6-812296359668",
-        "name": "Grupo TractoZone",
+        "name": "Grupo TractoZone 🚛",
         "description": "Me encargué de la implementación y optimización de diversos módulos para el área de ventas, devoluciones, recursos humanos, flotilla, en los sistemas ERP y CRM de la empresa, haciendo uso de .NET y procedimientos almacenados con SQL Server para el backend, y KendoGrid para el frontend.",
         "developerToolsBackend": [
             ".NET",

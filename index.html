@@ -3,40 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
     <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tools.css" />
+    <link rel="stylesheet" href="./css/project.css" />
+    <link rel="stylesheet" href="./css/screen.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class="navbar">
-      <ul class="navbar-text">
-        <li><a href="#hero">Sobre mi</a></li>
-        <li><a href="#training">Formación</a></li>
-        <li><a href="#portfolio">Portafolio</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-      <ul class="navbar-logo">
-        <li>
-          <a href="#hero"><img src="icon/aboutme.svg" alt="" /></a>
-        </li>
-        <li>
-          <a href="#training"
-            ><img src="icon/commit-svgrepo-com.svg" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="#portfolio"
-            ><img src="icon/console-svgrepo-com.svg" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="#contact"
-            ><img src="icon/contacts-svgrepo-com.svg" alt=""
-          /></a>
-        </li>
-      </ul>
-    </div>
-
     <div class="social">
       <ul>
         <li>
@@ -80,7 +62,11 @@
           </a>
         </li>
         <li>
-          <a href="http://www.twitter.com" target="_blank" class="icon-twitter">
+          <a
+            href="https://twitter.com/Eduardo_AT14"
+            target="_blank"
+            class="icon-twitter"
+          >
             <svg
               width="16"
               height="16"
@@ -117,264 +103,405 @@
         </li>
       </ul>
     </div>
-
+    <div class="navbar-container" id="navbar">
+      <ul class="navbar-text">
+        <li><a href="#hero">Sobre mi</a></li>
+        <li><a href="#training">Formación</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <ul class="navbar-logo">
+        <li>
+          <a href="#hero"><img src="icon/aboutme.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#training"
+            ><img src="icon/commit-svgrepo-com.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="#portfolio"
+            ><img src="icon/console-svgrepo-com.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="#contact"
+            ><img src="icon/contacts-svgrepo-com.svg" alt=""
+          /></a>
+        </li>
+      </ul>
+    </div>
     <div class="hero-container" id="hero">
-      <div class="hero-information">
-        <h1>Perfil Profesional</h1>
-        <p>
-          Ingeniero en ciencias de la computación con sólida experiencia en
-          desarrollo web full stack. Inicié desarrollando experiencia en
-          TUTOAULA, BEDU, Innovación virtual y Precitool, donde consolidé mis
-          habilidades. Recientemente, como desarrollador web en Grupo
-          TractoZone, he especializado mis conocimientos en la mejora y
-          desarrollo de módulos clave para el ERP de la empresa. Destaco por mi
-          capacidad para trabajar en equipo, cumplir con plazos y resolver
-          problemáticas empresariales de manera eficiente.
-        </p>
-        <h2>Skills</h2>
-        <ul id="skills-column">
-          <li>Trabajo en Equipo</li>
-          <li>Proactivo</li>
-          <li>Responsable</li>
-          <li>Puntual</li>
-          <li>Resilencia</li>
-          <li>Escucha activa</li>
-          <li>Agradable, amable y orientado al servicio</li>
-          <li>Capacidad de trabajo bajo presión</li>
-        </ul>
-      </div>
-      <div class="hero-image">
-        <figure>
-          <img src="img/myFace.png " alt=" " />
-        </figure>
-      </div>
-    </div>
-
-    <div class="tools">
-      <h2>Lenguajes de programación</h2>
-      <div class="programmingLanguages">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-plain.svg"
-          alt="js"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/java/java-plain.svg"
-          alt=""
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/c/c-plain.svg"
-          alt=""
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg"
-          alt=""
-        />
-      </div>
-      <h2>FrontEnd</h2>
-      <div class="toolsFrontend">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg"
-          alt="html-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg"
-          alt="css-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/webpack/webpack-plain.svg"
-          alt="webpack-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original-wordmark.svg"
-          alt="bootstrap-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sass/sass-original.svg"
-          alt="sass-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/angularjs/angularjs-plain.svg"
-          alt="angular-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg"
-          alt="react-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg"
-          alt="figma-icon"
-        />
-        <img
-          src="https://d3ml3b6vywsj0z.cloudfront.net/website/product-images/Progress_Kendo_UI.png"
-          alt="kendo-icon"
-        />
-      </div>
-      <h2>BackEnd</h2>
-      <div class="toolsBackend">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dot-net/dot-net-original-wordmark.svg"
-          alt="NET-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg"
-          alt="nodejs-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg"
-          alt="express-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sequelize/sequelize-original.svg"
-          alt="sequelize-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg"
-          alt="typescript-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nestjs/nestjs-plain.svg"
-          alt="nestjs-icon"
-        />
-        <img
-          src="https://avatars.githubusercontent.com/u/20165699?s=200&v=4"
-          alt="typeorm-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/handlebars/handlebars-original.svg"
-          alt="hbs-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-plain.svg"
-          alt="docker-icon"
-        />
-      </div>
-      <h2>Gestor de base de datos</h2>
-      <div class="db">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
-          alt="sqlserver-icon"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-plain.svg"
-          alt=""
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-plain.svg"
-          alt=""
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-plain.svg"
-          alt=""
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg"
-          alt=""
-        />
-      </div>
-      <h2>Others</h2>
-      <div class="others">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-plain.svg"
-          alt="git"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"
-          alt="github"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/gitlab/gitlab-plain.svg"
-          alt="gitlab"
-        />
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/vscode/vscode-original.svg"
-          alt="vscode"
-        />
-      </div>
-    </div>
-
-    <div class="training-container" id="training">
-      <h1>Mi Formación</h1>
-      <section class="timeline">
-        <ol id="olTimeline"></ol>
-      </section>
-    </div>
-
-    <div class="container-project" id="portfolio">
-      <h1>Proyectos realizados</h1>
-      <h2>BACKEND</h2>
-      <div class="backend">
-        <h2>.NET</h2>
-        <div class="projects" id="cards-.net"></div>
-      </div>
-      <div class="backend">
-        <h2>EXPRESS</h2>
-        <div class="projects" id="cards-express"></div>
-      </div>
-      <div class="backend">
-        <h2>NESTJS</h2>
-        <div class="projects" id="cards-nestjs"></div>
-      </div>
-      <h2>FRONTEND</h2>
-      <div class="frontend">
-        <h2>HTML-CSS</h2>
-        <div class="projects" id="cards-html-css"></div>
-      </div>
-      <div class="frontend">
-        <h2>HTML-CSS-JS</h2>
-        <div class="projects" id="cards-html-css-js"></div>
-      </div>
-      <div class="frontend">
-        <h2>REACT</h2>
-        <div class="projects" id="cards-react"></div>
-      </div>
-      <div class="frontend">
-        <h2>ANGULAR</h2>
-        <div class="projects" id="cards-angular"></div>
-      </div>
-    </div>
-
-    <div id="contact">
-      <h2>Contáctame</h2>
-      <div id="wrapper">
-        <div class="contact-form">
-          <form
-            action="https://formsubmit.co/fc99679ab5b2b09a8708700cb22f9e83"
-            method="POST"
-          >
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="name" required />
-            <label for="email">Email:</label>
-            <input type="email" name="email" required />
-            <label for="phone">Número de teléfono:</label>
-            <input type="text" name="phone" required />
-            <label for="message">Mensaje:</label>
-            <textarea name="message" cols="30 " rows="10 " required></textarea>
-            <input class="boton" type="submit" value="Enviar" />
-          </form>
+      <div id="banner">
+        <div class="name-profesion">
+          <h1>Desarrollador Web Full Stack</h1>
+          <h2>Mario Eduardo Álvarez Torres</h2>
         </div>
-        <div class="contact-info">
-          <div class="container-cv">
-            <h3>Puedes descargar mi CV:</h3>
-            <div class="CV">
-              <a
-                href="documents/CV - Mario Eduardo Alvarez Torres.pdf"
-                download
-              >
-                Descargar CV
-              </a>
+        <div>
+          <h3>Mis medios de contacto:</h3>
+          <br />
+          <div class="social-media">
+            <a
+              href="https://github.com/MarioEduardoAlvarezTorres"
+              target="_blank"
+              ><img src="./icon/github.png" alt="linkedin"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/mario-eduardo-álvarez-torres-9932531ab/"
+              target="_blank"
+              ><img src="./icon/linkedin.png" alt=""
+            /></a>
+            <a href="https://twitter.com/Eduardo_AT14" target="_blank"
+              ><img src="./icon/twitter.png" alt=""
+            /></a>
+            <a href="https://wa.link/t4s7xh" target="_blank"
+              ><img src="./icon/whatsapp.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div id="myFace">
+        <img src="./img/myFace.png" alt="" />
+      </div>
+      <div id="information">
+        <div class="description">
+          <h2>Perfil Profesional</h2>
+          <p>
+            Ingeniero en ciencias de la computación con sólida experiencia en
+            desarrollo web full stack. Inicié desarrollando experiencia en
+            TUTOAULA, BEDU, Innovación virtual y Precitool, donde consolidé mis
+            habilidades. Recientemente, como desarrollador web en Grupo
+            TractoZone, he especializado mis conocimientos en la mejora y
+            desarrollo de módulos clave para el ERP de la empresa.
+          </p>
+        </div>
+        <div class="tools-container">
+          <div class="tools">
+            <p>Lenguajes de programación</p>
+            <div class="img-slide">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-plain.svg"
+                alt="js"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/java/java-plain.svg"
+                alt=""
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/c/c-plain.svg"
+                alt=""
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg"
+                alt=""
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg"
+                alt=""
+              />
             </div>
           </div>
-          <div class="Networks"></div>
+          <div class="tools">
+            <p>FrontEnd</p>
+            <div class="img-slide" id="frontend">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg"
+                alt="html-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg"
+                alt="css-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/webpack/webpack-plain.svg"
+                alt="webpack-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original-wordmark.svg"
+                alt="bootstrap-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sass/sass-original.svg"
+                alt="sass-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/angularjs/angularjs-plain.svg"
+                alt="angular-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg"
+                alt="react-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg"
+                alt="figma-icon"
+              />
+              <img
+                src="https://d3ml3b6vywsj0z.cloudfront.net/website/product-images/Progress_Kendo_UI.png"
+                alt="kendo-icon"
+              />
+            </div>
+          </div>
+          <div class="tools">
+            <p>BackEnd</p>
+            <div class="img-slide" id="backend">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dot-net/dot-net-original-wordmark.svg"
+                alt="NET-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg"
+                alt="nodejs-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg"
+                alt="express-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sequelize/sequelize-original.svg"
+                alt="sequelize-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg"
+                alt="typescript-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nestjs/nestjs-plain.svg"
+                alt="nestjs-icon"
+              />
+              <img
+                src="https://avatars.githubusercontent.com/u/20165699?s=200&v=4"
+                alt="typeorm-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/handlebars/handlebars-original.svg"
+                alt="hbs-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-plain.svg"
+                alt="docker-icon"
+              />
+            </div>
+          </div>
+          <div class="tools">
+            <p>Gestor de base de datos</p>
+            <div class="img-slide">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
+                alt="sqlserver-icon"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-plain.svg"
+                alt=""
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-plain.svg"
+                alt=""
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-plain.svg"
+                alt=""
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="tools">
+            <p>Others</p>
+            <div class="img-slide">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-plain.svg"
+                alt="git"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/gitlab/gitlab-plain.svg"
+                alt="gitlab"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/vscode/vscode-original.svg"
+                alt="vscode"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-    <div id="carga">
-      <h2>Cargando Formación y Proyectos...</h2>
+    <div class="skills-container" id="skill">
+      <div class="skill-card">
+        <img src="./icon/teamwork.png" alt="" />
+        <h3>Colaboración y Comunicación en Desarrollo Web</h3>
+        <br />
+        <p>
+          Soy un desarrollador web que valora la colaboración, trabajando
+          armoniosamente en equipo y practicando la escucha activa para
+          comprender las necesidades del proyecto y del equipo.
+        </p>
+      </div>
+      <div class="skill-card">
+        <img src="./icon/solving-problems.png" alt="" />
+        <h3>Actitudes y Valores Esenciales en Desarrollo Web</h3>
+        <br />
+        <p>
+          Mi enfoque proactivo, junto con una fuerte ética de trabajo
+          responsable y puntual, garantiza un desarrollo web eficiente y de alta
+          calidad, cumpliendo con plazos y estándares.
+        </p>
+      </div>
+      <div class="skill-card">
+        <img src="./icon/communication.png" alt="" />
+        <h3>Orientación al Usuario y Servicio en Desarrollo Web</h3>
+        <br />
+        <p>
+          Con una actitud agradable y amable, junto con un enfoque orientado al
+          servicio, me esfuerzo por crear experiencias web positivas para los
+          usuarios, brindando soluciones eficaces y accesibles.
+        </p>
+      </div>
+      <div class="skill-card">
+        <img src="./icon/adapt.png" alt="" />
+        <h3>Resiliencia y Adaptabilidad en el Contexto del Desarrollo Web</h3>
+        <br />
+        <p>
+          Mi capacidad de resiliencia me permite adaptarme fácilmente a los
+          desafíos en el desarrollo web, encontrando soluciones innovadoras y
+          manteniendo un rendimiento constante ante cambios inesperados.
+        </p>
+      </div>
+      <div class="skill-card">
+        <img src="./icon/code-square.png" alt="" />
+        <h3>Gestión Efectiva en Ambientes de Desarrollo Web</h3>
+        <br />
+        <p>
+          Mi capacidad para trabajar bajo presión me permite gestionar
+          eficientemente los proyectos de desarrollo web, manteniendo altos
+          estándares de rendimiento incluso en entornos dinámicos y exigentes.
+        </p>
+      </div>
     </div>
-    <script src="./js/loadData.js"></script>
-    <script src="./js/cards-frontend-portfolio.js"></script>
-    <script src="./js/cards-backend-portfolio.js"></script>
-    <script src="./js/training.js"></script>
+    <div class="contact-container" id="contact">
+      <h1>Contáctame</h1>
+
+      <form
+        action="https://formsubmit.co/fc99679ab5b2b09a8708700cb22f9e83"
+        method="POST"
+      >
+        <input type="text" placeholder="Mandame un mensajito" />
+        <button><img src="./icon/email button.png" alt="" /></button>
+      </form>
+
+      <a href="documents/CV - Mario Eduardo Alvarez Torres.pdf" download
+        >Descarga mi CV</a
+      >
+    </div>
+    <div class="training-container" id="training">
+      <h1>Mi Formación</h1>
+      <div class="cards">
+        <div class="training-card">
+          <p>Agosto 2018 - Junio 2023</p>
+          <h4>Ing. En Ciencias de la Computación</h4>
+          <h3>Benemérita Universidad Autónoma de Puebla</h3>
+          <p>descripcion</p>
+        </div>
+        <div class="training-card">
+          <p>Mayo 2022 - Octubre 2022</p>
+          <h4>Training</h4>
+          <h3>Santander – Bedu</h3>
+          <p>Innovación para el futuro</p>
+        </div>
+        <div class="training-card">
+          <p>Mayo 2022 – Agosto 2022</p>
+          <h4>Training</h4>
+          <h3>Microsoft Azure</h3>
+          <p>Microsoft Azure Fundamentals AZ 900</p>
+        </div>
+        <div class="training-card">
+          <p>Mayo 2022 – Noviembre 2023</p>
+          <h4>FullStack Developer</h4>
+          <h3>TutoAula</h3>
+          <p>Desarrollo backend en proyecto Adara y Bienestar Animal</p>
+        </div>
+        <div class="training-card">
+          <p>Diciembre 2022 – Junio 2023</p>
+          <h4>Backend Developer</h4>
+          <h3>Precitool</h3>
+          <p>
+            Diseño y creación de panel administrador del portal de la página
+            principal
+          </p>
+        </div>
+        <div class="training-card">
+          <p>Agosto 2023 – Enero 2024</p>
+          <h4>FullStack Developer Jr</h4>
+          <h3>Grupo TractoZone</h3>
+          <p>
+            Implementacion y optimizacion de modulos para los sistemas ERP y CRM
+            de la empresa
+          </p>
+        </div>
+      </div>
+      <div class="percentage-container">
+        <div class="progress-container">
+          <h3>Front-End</h3>
+          <div style="background-color: #d9d9d9">
+            <div class="progress-bar" id="FrontEnd">
+              <div class="text">0%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <h3>Back-End</h3>
+          <div style="background-color: #d9d9d9">
+            <div class="progress-bar" id="BackEnd">
+              <div class="text">0%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <h3>Despliegue</h3>
+          <div style="background-color: #d9d9d9">
+            <div class="progress-bar" id="Despliegue">
+              <div class="text">0%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <h3>Gestor de base de datos</h3>
+          <div style="background-color: #d9d9d9">
+            <div class="progress-bar" id="BaseDatos">
+              <div class="text">0%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-container" id="portfolio">
+      <h1>Proyectos realizados</h1>
+      <div class="modal-container" style="display: none">
+        <div class="modal-left">
+          <img src="" alt="" id="img-modal" />
+        </div>
+        <div class="modal-right">
+          <button id="ocultarModal">x</button>
+          <div id="modal-info">
+            <h2 id="title"></h2>
+            <p id="description"></p>
+            <div class="links-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/project/card.js"></script>
+    <script src="./js/project/modal.js"></script>
+    <script src="./js/project/animations.js"></script>
   </body>
 </html>

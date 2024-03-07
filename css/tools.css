@@ -1,0 +1,44 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.tools-container {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.tools-container:before,
+.tools-container:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.tools-container:before {
+    left: 0;
+}
+
+.tools-container:after {
+    right: 0;
+}
+
+.img-slide {
+    display: inline-block;
+    animation: 10s slide infinite alternate;
+}
+
+.img-slide img {
+    height: 30px;
+    margin: 0 10px;
+}

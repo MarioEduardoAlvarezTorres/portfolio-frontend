@@ -1,0 +1,122 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero-container {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: auto;
+        padding: 10% 10%;
+    }
+
+    .hero-container #information {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        padding-bottom: 1rem;
+    }
+
+    .hero-container #banner {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    .hero-container #myFace img {
+        display: none;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .skills-container .skill-card p {
+        display: none;
+    }
+
+    .training-container .cards {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .social {
+        padding: 1rem;
+    }
+
+    .hero-container h1 {
+        margin-top: 4rem;
+    }
+
+    .hero-container {
+        padding: 20% 5%;
+        height: 100%;
+    }
+
+    .hero-container,
+    .hero-container>* {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-container #myFace img {
+        display: none;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        padding: 6rem 5% 8rem;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 1rem;
+    }
+
+    .contact-container form {
+        width: 80%;
+    }
+
+    .contact-container input {
+        width: 100%;
+    }
+
+    .training-container .cards {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .training-container .training-card {
+        width: 400px;
+    }
+
+    .percentage-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container .container-tool {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        scroll-behavior: smooth;
+    }
+
+    .project-container>.modal-container {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: none;
+        max-width: 75%;
+        max-height: 75%;
+    }
+
+    .scrollShow {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s, transform 0.5s;
+    }
+}
